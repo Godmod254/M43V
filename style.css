@@ -12,8 +12,8 @@ div #lib{
   }
   
   :root {
-    --card-height: 65vh;
-    --card-width: calc(var(--card-height) / 1.5);
+    --card-height: 25vh;
+    --card-width: calc(var(--card-height) / 0.27);
   }
   
   
@@ -58,16 +58,16 @@ div #lib{
   
   .card::before {
     content: "";
-    width: 104%;
-    height: 102%;
-    border-radius: 8px;
+    width: 102%;
+    height: 105%;
+    border-radius: 9px;
     background-image: linear-gradient(
       var(--rotate)
       , #5ddcff, #3c67e3 43%, #4e00c2);
       position: absolute;
       z-index: -1;
-      top: -1%;
-      left: -2%;
+      top: -2%;
+      left: -1%;
       animation: spin 2.5s linear infinite;
   }
   
